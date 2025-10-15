@@ -14,7 +14,7 @@ The backend code is in the convex directory.
 
 ## App authentication
 
-Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+Chef apps use with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
 
 ## Developing and deploying your app
 
@@ -25,5 +25,5 @@ Check out the [Convex docs](https://docs.convex.dev/) for more information on ho
 
 ## HTTP API
 
-User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
+User-defined http routes are defined in the convex/router.ts file. We split these routes into a separate file from convex/http.ts to allow us to prevent the LLM from modifying the authentication routes.
 # EduPath-PH
