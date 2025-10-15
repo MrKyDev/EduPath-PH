@@ -1,20 +1,21 @@
 # EduPath PH - AI Career & Course Navigator
   
-This is a project built with Chef using Convex as its backend.
+This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
+ You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
   
-This project is connected to the Convex deployment.
+This project is connected to the Convex deployment named [`reliable-seahorse-215`](https://dashboard.convex.dev/d/reliable-seahorse-215).
   
 ## Project structure
   
-The frontend code is in the app directory and is built with Vite.
+The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
   
-The backend code is in the convex directory.
+The backend code is in the `convex` directory.
   
 `npm run dev` will start the frontend and backend servers.
 
 ## App authentication
 
-Chef apps use with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
+Chef apps use [Convex Auth](https://auth.convex.dev/) with Anonymous auth for easy sign in. You may wish to change this before deploying your app.
 
 ## Developing and deploying your app
 
@@ -25,5 +26,4 @@ Check out the [Convex docs](https://docs.convex.dev/) for more information on ho
 
 ## HTTP API
 
-User-defined http routes are defined in the convex/router.ts file. We split these routes into a separate file from convex/http.ts to allow us to prevent the LLM from modifying the authentication routes.
-# EduPath-PH
+User-defined http routes are defined in the `convex/router.ts` file. We split these routes into a separate file from `convex/http.ts` to allow us to prevent the LLM from modifying the authentication routes.
