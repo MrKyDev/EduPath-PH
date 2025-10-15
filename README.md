@@ -6,9 +6,9 @@ This project is connected to the Convex deployment named [`reliable-seahorse-215
   
 ## Project structure
   
-The frontend code is in the `app` directory and is built with [Vite](https://vitejs.dev/).
+The frontend code is in the app directory and is built with Vite.
   
-The backend code is in the `convex` directory.
+The backend code is in the convex directory.
   
 `npm run dev` will start the frontend and backend servers.
 
