@@ -1,7 +1,6 @@
 # EduPath PH - AI Career & Course Navigator
   
-This is a project built with [Chef](https://chef.convex.dev) using [Convex](https://convex.dev) as its backend.
- You can find docs about Chef with useful information like how to deploy to production [here](https://docs.convex.dev/chef).
+This is a project built with Chef using Convex as its backend.
   
 This project is connected to the Convex deployment named [`reliable-seahorse-215`](https://dashboard.convex.dev/d/reliable-seahorse-215).
   
