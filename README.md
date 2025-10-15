@@ -2,7 +2,7 @@
   
 This is a project built with Chef using Convex as its backend.
   
-This project is connected to the Convex deployment named [`reliable-seahorse-215`](https://dashboard.convex.dev/d/reliable-seahorse-215).
+This project is connected to the Convex deployment.
   
 ## Project structure
   
