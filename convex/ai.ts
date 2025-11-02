@@ -1,3 +1,6 @@
+//Uncomment this if you want AI to be offline and comment the code under this code
+
+/*
 import { action } from "./_generated/server";
 import { v } from "convex/values";
 import { api } from "./_generated/api";
@@ -81,10 +84,10 @@ export const chatWithCoachEdu = action({
     return mockAIResponse(args.message, "chat");
   },
 });
-  
+  */
 
 // If you want that the AI will work uncomment this part and comment the above Code
-/*
+
 import { action } from "./_generated/server";
 import { v } from "convex/values";
 import { api } from "./_generated/api";
@@ -222,5 +225,3 @@ export const chatWithCoachEdu = action({
     return response.choices[0].message.content || "I'm sorry, I couldn't process your message right now. Please try again.";
   },
 });
-
-*/
